@@ -46,7 +46,7 @@ define({
       }
     },
     {
-     "name": "Esri World Imagery",
+     "name": "Luftbildkarte (Esri World Imagery)",
       "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
       "config": {
       "attribution": "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
@@ -54,7 +54,7 @@ define({
      }
     },
     {
-     "name": "CartoDB (DarkMatter) http only",
+     "name": "Schemat. Karte (CartoDB (Dunkler Hintergrund) http only)",
       "url": "http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png",
       "config": {
       "subdomains": "abcd",
@@ -63,7 +63,7 @@ define({
      }
     },
     {
-     "name": "Stamen (TonerLite)",
+     "name": "Schemat. S/W-Karte  (Stamen (TonerLite))",
       "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png",
       "config": {
       "subdomains": "abcd",
